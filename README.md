@@ -6,22 +6,22 @@ Este projeto exemplifica a conexão e manipulação de dados em um banco MySQL c
 
 ## Criação de tabela
 
-*Inserção de registros (com diferentes formas de placeholders)*
+- Inserção de registros (com diferentes formas de placeholders)
 
-*Consulta (SELECT) com filtro*
+- Consulta (SELECT) com filtro
 
-*Atualização (UPDATE)*
+- Atualização (UPDATE)
 
-*Exclusão (DELETE)*
+- Exclusão (DELETE)
 
 O banco MySQL está configurado para rodar via Docker, facilitando o setup.
 
 ## Pré-requisitos
-*Docker e Docker Compose instalados*
+- Docker e Docker Compose instalados  
 
-*Python 3.x instalado*
+- Python 3.x instalado
 
-*Conhecimento básico de terminal/comandos*
+- Conhecimento básico de terminal/comandos
 
 ## Configuração do Docker MySQL
 Na raiz do projeto, há um arquivo **docker-compose.yml** com a configuração do MySQL 8:
@@ -110,3 +110,8 @@ Ele fará todas as operações de criação, inserção, consulta, atualização
 - Apaga um registro específico
 
 - Atualiza um registro e imprime o resultado
+
+# Conclusão
+Este projeto demonstra de forma prática como utilizar o PyMySQL para realizar operações básicas com banco de dados MySQL em Python puro, com suporte a variáveis de ambiente e containerização via Docker. Ele pode servir como base para aplicações maiores que dependam de interações diretas com bancos de dados relacionais.
+
+Sinta-se à vontade para contribuir com melhorias, sugestões ou relatar problemas através de issues ou pull requests.
