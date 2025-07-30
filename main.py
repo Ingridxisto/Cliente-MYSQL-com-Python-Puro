@@ -150,3 +150,4 @@ with connection:
 
         for row in cursor.fetchall():
             print(row)
+    connection.commit()
