@@ -67,11 +67,11 @@ docker-compose up -d
 ```
 python -m venv venv
 ```
-#### Linux/macOS
+#### Linux/macOS:
 ```
 source venv/bin/activate   
 ```
-#### Windows
+#### Windows:
 ```
 venv\Scripts\activate      
 ```
